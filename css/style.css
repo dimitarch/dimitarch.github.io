@@ -1,9 +1,3 @@
-/* Load Minion Pro */
-@import url("https://use.typekit.net/exo0aor.css");
-
-/* Load Fira Code */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
-
 /* Variables to make life easier */
 :root {
     /* Fonts */
@@ -246,7 +240,6 @@ hr {
 .title a {
     display: flex;
     font-size: 2rem;
-    font-weight: 300;
     white-space: nowrap;
 }
 
@@ -265,7 +258,6 @@ hr {
     color: var(--accent-color);
     font-size: 1rem;
     margin-right: 2rem;
-    font-weight: 300;
     text-align: left;
 }
 
@@ -361,7 +353,6 @@ footer p {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    font-weight: 300;
     white-space: nowrap;
 }
 
