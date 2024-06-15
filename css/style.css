@@ -1,7 +1,8 @@
 /* Variables to make life easier */
 :root {
     /* Fonts */
-    --ff-mono: "Fira Code", "Courier New", monospace;
+    /* --ff-mono: "Fira Code", "Courier New", monospace; */
+    --ff-mono: "Courier New", monospace;
     --ff-serif: "Crimson Text", "Georgia", serif;
     --ff-sans-serif: "Helvetica", sans-serif;
 
