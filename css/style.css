@@ -1,8 +1,7 @@
 /* Variables to make life easier */
 :root {
     /* Fonts */
-    /* --ff-mono: "Fira Code", "Courier New", monospace; */
-    --ff-mono: "Courier New", monospace;
+    --ff-mono: "Fira Code", "Courier New", monospace;
     --ff-serif: "Crimson Text", "Georgia", serif;
     --ff-sans-serif: "Helvetica", sans-serif;
 
@@ -22,10 +21,12 @@
     --sumi: #1f1f1f;
     --susutakeiro: #4d3933;
     --almost-black: #3f3f46;
+    --lava: #b00c1d;
 
     --bg-color: var(--pale-himawariiro);
     --text-color: var(--sumi);
     --accent-color: var(--sumi);
+    --link-color: var(--lava);
 }
 
 /* @media only screen and (prefers-color-scheme: dark) {
@@ -69,7 +70,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--link-color);
 }
 
 p {
@@ -242,6 +243,7 @@ hr {
     display: flex;
     font-size: 2rem;
     white-space: nowrap;
+    color: var(--text-color);
 }
 
 .nav {
@@ -256,7 +258,7 @@ hr {
 
 .nav a {
     font-family: var(--ff-mono);
-    color: var(--accent-color);
+    color: var(--text-color);
     font-size: 1rem;
     margin-right: 2rem;
     text-align: left;
