@@ -357,6 +357,7 @@ footer p {
     align-items: center;
     font-size: 1.5rem;
     white-space: nowrap;
+    color: var(--text-color);
 }
 
 @media screen and (max-width: 600px) {
