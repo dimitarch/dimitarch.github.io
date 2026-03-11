@@ -1,0 +1,34 @@
+- title: "A QPTAS For Up-To-Epsilon Revenue Maximization With Multiple Constant-Demand Bidders Over Independent Items"
+  venue: EC 2025
+  authors:
+    - name: Dimitar Chakarov
+    - name: Matthew Weinberg
+      url: https://www.cs.princeton.edu/~smattw/
+    - name: Eric Xue
+      url: https://ericrxue.com/
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3736252.3742655
+  tags:
+    - algorithm design
+    - mechanism design
+
+- title: "Genome-wide CRISPR Guide RNA Design and Specificity Analysis with GuideScan2"
+  venue: Genome Biology 2025
+  authors:
+    - name: Henri Schmidt
+    - name: Minsi Zhang
+    - name: Dimitar Chakarov
+    - name: Vineet Bansal
+    - name: Haralambos Mourelatos
+    - name: Francisco J. Sánchez-Rivera
+    - name: Scott W. Lowe
+    - name: Andrea Ventura
+    - name: Christina S. Leslie
+    - name: Yuri Pritykin
+  links:
+    paper: https://link.springer.com/article/10.1186/s13059-025-03488-8
+    code: https://github.com/pritykinlab/guidescan-cli
+  tags:
+    - computational genomics
+    - algorithm design
+    - statistical analysis

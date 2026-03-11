@@ -7,7 +7,7 @@
 
     --pale-himawariiro: #fffffd;
     --sumi: #1f1f1f;
-    --lava: #b00c1d;
+    --lava: #a80c1c;
 
     --bg-color: var(--pale-himawariiro);
     --text-color: var(--sumi);
@@ -39,22 +39,18 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--link-color);
+}
+
+a:hover {
+    color: var(--text-color);
 }
 
 p {
     max-width: var(--text-width);
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-p a {
-    text-decoration: underline;
-}
-
-p a:hover {
-    color: var(--accent-color);
 }
 
 p>code,
@@ -67,7 +63,8 @@ li>code {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
-    color: var(--accent-color);
+    margin-bottom: 1rem;
+    color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -87,7 +84,7 @@ ol li {
 
 hr {
     border-style: solid;
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 .outer-container {
@@ -119,6 +116,7 @@ hr {
     font-size: 2rem;
     white-space: nowrap;
     color: var(--text-color);
+    text-decoration: none;
 }
 
 header {
@@ -128,7 +126,7 @@ header {
 
 footer {
     font-family: var(--ff-serif);
-    font-size: 0.85rem;
+    font-size: 0.92rem;
     margin: 0em;
     margin-top: auto;
     text-align: center;
@@ -143,6 +141,45 @@ footer p {
     gap: 0.75rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+.pub {
+    border-left: 2px solid var(--lava);
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.95em;
+    max-width: var(--text-width);
+}
+
+.pub-title {
+    font-weight: bold;
+}
+
+.pub-authors {
+    margin-top: 0.15rem;
+    font-size: 0.92rem;
+}
+
+.pub-venue {
+    margin-top: 0.15rem;
+    font-size: 0.92rem;
+    font-weight: bold;
+}
+
+.pub-venue em {
+    font-style: italic;
+}
+
+.pub-links {
+    margin-top: 0.15rem;
+    font-size: 0.92rem;
+}
+
+.pub-tags {
+    margin-top: 0.15rem;
+    font-family: var(--ff-mono);
+    font-size: 0.70rem;
+    color: #a1a1aa;
 }
 
 .icons a {
