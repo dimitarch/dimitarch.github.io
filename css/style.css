@@ -48,6 +48,7 @@ a:hover {
 }
 
 p {
+    font-size: 0.95rem;
     max-width: var(--text-width);
     margin-top: 1rem;
     margin-bottom: 1rem;
