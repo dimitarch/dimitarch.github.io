@@ -148,8 +148,8 @@ footer p {
 .pub {
     border-left: 2px solid var(--princeton);
     padding-left: 0.75rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.95em;
+    margin-bottom: 1.25rem;
+    font-size: 0.92em;
     max-width: var(--text-width);
 }
 
@@ -158,13 +158,13 @@ footer p {
 }
 
 .pub-authors {
-    margin-top: 0.15rem;
-    font-size: 0.92rem;
+    margin-top: 0.05rem;
+    font-size: 0.90rem;
 }
 
 .pub-venue {
-    margin-top: 0.15rem;
-    font-size: 0.92rem;
+    margin-top: 0.05rem;
+    font-size: 0.90rem;
     font-weight: bold;
 }
 
@@ -173,14 +173,14 @@ footer p {
 }
 
 .pub-links {
-    margin-top: 0.15rem;
-    font-size: 0.92rem;
+    margin-top: 0.05rem;
+    font-size: 0.90rem;
 }
 
 .pub-tags {
-    margin-top: 0.15rem;
+    margin-top: 0.05rem;
     font-family: var(--ff-mono);
-    font-size: 0.70rem;
+    font-size: 0.60rem;
     color: #a1a1aa;
 }
 
