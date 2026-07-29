@@ -1,16 +1,18 @@
-fetch("publications.json")
-    .then((r) => r.json())
-    .then(render);
+Promise.all([
+    fetch("publications.json").then((r) => r.json()),
+    fetch("collaborators.json").then((r) => r.json()),
+]).then(([pubs, collabs]) => render(pubs, collabs));
 
-function render(pubs) {
+function render(pubs, collabs) {
     const container = document.getElementById("publications");
-    container.innerHTML = pubs.map(renderPub).join("");
+    container.innerHTML = pubs.map((p) => renderPub(p, collabs)).join("");
 }
 
-function renderPub(pub) {
+function renderPub(pub, collabs) {
     const authors = pub.authors
         .map((a) => {
-        let name = a.url ? `<a href="${a.url}">${a.name}</a>` : a.name;
+        const url = a.url || collabs[a.name];
+        let name = url ? `<a href="${url}">${a.name}</a>` : a.name;
         if (a.self) name = `<strong>${name}</strong>`;
         if (a.equal) name += "*";
         return name;

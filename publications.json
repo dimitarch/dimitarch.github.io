@@ -1,71 +1,146 @@
 [
-  {
-    "title": "A QPTAS For Up-To-Epsilon Revenue Maximization With Multiple Constant-Demand Bidders Over Independent Items",
-    "venue": "EC 2025",
-    "authors": [
-      {
-        "name": "Dimitar Chakarov"
-      },
-      {
-        "name": "Matthew Weinberg",
-        "url": "https://www.cs.princeton.edu/~smattw/"
-      },
-      {
-        "name": "Eric Xue",
-        "url": "https://ericrxue.com/"
-      }
-    ],
-    "links": {
-      "paper": "https://dl.acm.org/doi/10.1145/3736252.3742655"
+    {
+        "title": "On Incentivized Exploration beyond Bayesianism and Full-Information",
+        "venue": "Preprint, 2026",
+        "authors": [
+            {
+                "name": "Dimitar Chakarov"
+            },
+            {
+                "name": "Lee Cohen"
+            },
+            {
+                "name": "Nathan Srebro"
+            }
+        ],
+        "links": {
+            "paper": "https://arxiv.org/abs/2607.18300"
+        },
+        "tags": [
+            "online learning",
+            "learning theory",
+            "mechanism design"
+        ]
     },
-    "tags": [
-      "algorithm design",
-      "mechanism design"
-    ]
-  },
-  {
-    "title": "Genome-wide CRISPR Guide RNA Design and Specificity Analysis with GuideScan2",
-    "venue": "Genome Biology 2025",
-    "authors": [
-      {
-        "name": "Henri Schmidt"
-      },
-      {
-        "name": "Minsi Zhang"
-      },
-      {
-        "name": "Dimitar Chakarov"
-      },
-      {
-        "name": "Vineet Bansal"
-      },
-      {
-        "name": "Haralambos Mourelatos"
-      },
-      {
-        "name": "Francisco J. Sánchez-Rivera"
-      },
-      {
-        "name": "Scott W. Lowe"
-      },
-      {
-        "name": "Andrea Ventura"
-      },
-      {
-        "name": "Christina S. Leslie"
-      },
-      {
-        "name": "Yuri Pritykin"
-      }
-    ],
-    "links": {
-      "paper": "https://link.springer.com/article/10.1186/s13059-025-03488-8",
-      "code": "https://github.com/pritykinlab/guidescan-cli"
+    {
+        "title": "On the Power of Deception In Repeated Games",
+        "venue": "SAGT 2026",
+        "authors": [
+            {
+                "name": "Saba Ahmadi"
+            },
+            {
+                "name": "Avrim Blum"
+            },
+            {
+                "name": "Dimitar Chakarov"
+            },
+            {
+                "name": "Melissa Dutz"
+            }
+        ],
+        "links": {
+            "paper": "https://arxiv.org/abs/2607.23049"
+        },
+        "tags": [
+            "algorithm design",
+            "approximation algorithms",
+            "game theory"
+        ]
     },
-    "tags": [
-      "computational genomics",
-      "algorithm design",
-      "statistical analysis"
-    ]
-  }
+    {
+        "title": "A QPTAS For Up-To-Epsilon Revenue Maximization With Multiple Constant-Demand Bidders Over Independent Items",
+        "venue": "EC 2025",
+        "authors": [
+            {
+                "name": "Dimitar Chakarov"
+            },
+            {
+                "name": "Matthew Weinberg"
+            },
+            {
+                "name": "Eric Xue"
+            }
+        ],
+        "links": {
+            "paper": "https://dl.acm.org/doi/10.1145/3736252.3742655"
+        },
+        "tags": [
+            "algorithm design",
+            "approximation algorithms",
+            "mechanism design"
+        ]
+    },
+    {
+        "title": "Genome-wide CRISPR Guide RNA Design and Specificity Analysis with GuideScan2",
+        "venue": "Genome Biology 2025",
+        "authors": [
+            {
+                "name": "Henri Schmidt"
+            },
+            {
+                "name": "Minsi Zhang"
+            },
+            {
+                "name": "Dimitar Chakarov"
+            },
+            {
+                "name": "Vineet Bansal"
+            },
+            {
+                "name": "Haralambos Mourelatos"
+            },
+            {
+                "name": "Francisco J. Sánchez-Rivera"
+            },
+            {
+                "name": "Scott W. Lowe"
+            },
+            {
+                "name": "Andrea Ventura"
+            },
+            {
+                "name": "Christina S. Leslie"
+            },
+            {
+                "name": "Yuri Pritykin"
+            }
+        ],
+        "links": {
+            "paper": "https://link.springer.com/article/10.1186/s13059-025-03488-8",
+            "code": "https://github.com/pritykinlab/guidescan-cli"
+        },
+        "tags": [
+            "computational genomics",
+            "algorithm design",
+            "statistical analysis"
+        ]
+    },
+    {
+        "title": "Incentive Compatibility and Truthful Collaboration in Heterogeneous Federated Learning",
+        "venue": "NeurIPS 2024 Workshop on Optimization in Machine Learning",
+        "authors": [
+            {
+                "name": "Dimitar Chakarov"
+            },
+            {
+                "name": "Nikita Tsoy"
+            },
+            {
+                "name": "Kristian Minchev"
+            },
+            {
+                "name": "Nikola Konstantinov"
+            }
+        ],
+        "links": {
+            "paper": "https://arxiv.org/abs/2412.00980"
+        },
+        "tags": [
+            "deep learning",
+            "federated learning",
+            "game theory",
+            "mechanism design"
+        ]
+    }
 ]
