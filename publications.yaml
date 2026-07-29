@@ -20,6 +20,7 @@
     - name: Melissa Dutz
   links:
     paper: https://arxiv.org/abs/2607.23049
+    code: https://github.com/dimitarch/deception-code
   tags:
     - algorithm design
     - approximation algorithms
