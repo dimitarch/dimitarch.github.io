@@ -44,6 +44,7 @@ function renderPub(pub, collabs) {
         <div class="pub-authors">${authors}</div>
         <div class="pub-venue">${venue}</div>
         ${links ? `<div class="pub-links">${links}</div>` : ""}
-        ${tags}
         </div>`;
 }
+
+        // ${tags}
