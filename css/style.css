@@ -9,6 +9,7 @@
     --sumi: #1f1f1f;
     --lava: #a80c1c;
     --princeton: #e15407;
+    --gray-text: #a1a1aa;
 
     --bg-color: var(--pale-himawariiro);
     --text-color: var(--sumi);
@@ -87,6 +88,10 @@ ol li {
 hr {
     border-style: solid;
     color: var(--text-color);
+}
+
+.gray-text {
+    color: var(--gray-text);
 }
 
 .outer-container {
@@ -181,7 +186,7 @@ footer p {
     margin-top: 0.05rem;
     font-family: var(--ff-mono);
     font-size: 0.70rem;
-    color: #a1a1aa;
+    color: var(--gray-text);
 }
 
 .icons a {
